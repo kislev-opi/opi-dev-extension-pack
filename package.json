@@ -14,7 +14,7 @@
   "publisher": "OPI Dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kislev/vscode-extension-package.git"
+    "url": "https://github.com/kislev-opi/opi-dev-extension-pack.git"
   },
   "icon": "icon.png",
   "extensionPack": [
