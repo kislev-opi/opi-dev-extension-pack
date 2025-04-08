@@ -1,13 +1,31 @@
-# OPI Extension Pack for Web Developers
+# OPI Dev Extension Pack
+
+![OPI Icon](icon.png)
 
 ## Overview
 
-This pack is curated for web developers at OP innovate. It includes a set of extensions that enhance productivity and provide essential tools for modern web development, covering HTML, CSS, JavaScript, and more.
+This extension pack is designed for developers working with TypeScript, React, Nginx, SSH, Python, MongoDB, Git and more. It bundles a set of powerful extensions to streamline and optimize your development workflow.
 
 ## Installation
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/).
-2. Install this extension pack from the VS Code Marketplace.
+1. Download the extension pack from the [GitLab Releases](https://github.com/kislev-opi/opi-dev-extension-pack/releases/latest) (replace "#" with the actual URL).
+2. Open Visual Studio Code and navigate to the Extensions view.
+3. Install the extension pack via "Install from VSIX".
+4. Add the following recommended settings to your workspace (open your workspace settings.json):
+
+```json
+{
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "chat.agent.enabled": true
+}
+```
 
 ## Included Extensions
 
@@ -41,3 +59,7 @@ This pack is curated for web developers at OP innovate. It includes a set of ext
 | raynigon.nginx-formatter              | Nginx formatter                |
 | streetsidesoftware.code-spell-checker | Spell checking                 |
 | wayou.vscode-todo-highlight           | Highlight TODO comments        |
+
+## Credits
+
+Developed by Kislev Levy

@@ -1,11 +1,11 @@
 {
-  "name": "opi",
-  "displayName": "OPI Dev",
+  "name": "opi-dev-extension-pack",
+  "displayName": "OPI Dev Extension Pack",
   "author": "Kislev Levy",
-  "description": "This pack is curated for web developers at OP innovate. It includes a set of extensions that enhance productivity and provide essential tools for modern web development, covering HTML, CSS, JavaScript, and more.",
+  "description": "A curated extension pack for TypeScript, React, Nginx, SSH, Python, MongoDB, Git and more. Download from our GitLab releases, install via VS Code, and configure your workspace with our recommended settings for an optimized development experience.",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": ">=1.96.2"
   },
   "categories": [
     "Extension Packs"
