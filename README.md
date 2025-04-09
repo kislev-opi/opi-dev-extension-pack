@@ -10,7 +10,7 @@ This extension pack is designed for developers working with TypeScript, React, N
 
 ## Installation
 
-1. Download the extension pack from the [GitLab Releases](https://github.com/kislev-opi/opi-dev-extension-pack/releases/latest) (replace "#" with the actual URL).
+1. Download the extension pack from the [GitHub Releases](https://github.com/kislev-opi/opi-dev-extension-pack/releases/latest).
 2. Open Visual Studio Code and navigate to the Extensions view.
 3. Install the extension pack via "Install from VSIX".
 4. Add the following recommended settings to your workspace (open your workspace settings.json):
@@ -25,7 +25,7 @@ This extension pack is designed for developers working with TypeScript, React, N
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "chat.agent.enabled": true // optional
+  "chat.agent.enabled": true //optional
 }
 ```
 
