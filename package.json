@@ -5,7 +5,7 @@
   "description": "A curated extension pack for TypeScript, React, Nginx, SSH, Python, MongoDB, Git and more. Download from our GitLab releases, install via VS Code, and configure your workspace with our recommended settings for an optimized development experience.",
   "version": "1.0.0",
   "engines": {
-    "vscode": ">=1.90.0"
+    "vscode": ">=1.96.2"
   },
   "categories": [
     "Extension Packs"
