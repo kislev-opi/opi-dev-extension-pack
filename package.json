@@ -45,6 +45,7 @@
     "streetsidesoftware.code-spell-checker",
     "wayou.vscode-todo-highlight",
     "monokai.theme-monokai-pro-vscode",
-    "pkief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "yoavbls.pretty-ts-errors"
   ]
 }

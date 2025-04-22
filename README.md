@@ -40,6 +40,7 @@ This extension pack is designed for developers working with TypeScript, React, N
 | formulahendry.auto-rename-tag    | Automatically renames matching HTML/XML tags                                |
 | ms-vscode.vscode-typescript-next | Supports cutting-edge TypeScript features                                   |
 | dbaeumer.vscode-eslint           | Integrates ESLint for real-time linting in JavaScript and TypeScript        |
+| yoavbls.pretty-ts-errors         | Improves TypeScript error messages with explanations and formatting         |
 
 ### Backend Development
 
