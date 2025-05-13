@@ -28,6 +28,21 @@ This extension pack is designed for developers working with TypeScript, React, N
   "chat.agent.enabled": true //optional
 }
 ```
+5. Add the following recommended keyboard bindings to your workspace (open your workspace keybindings.json):
+```json
+[
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+[IntlBackslash]",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  }
+]
+```
 
 ## Included Extensions
 
