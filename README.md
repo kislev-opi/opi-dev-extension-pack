@@ -24,11 +24,12 @@ This extension pack is designed for developers working with TypeScript, React, N
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "chat.agent.enabled": true //optional
+  }
 }
 ```
+
 5. Add the following recommended keyboard bindings to your workspace (open your workspace keybindings.json):
+
 ```json
 [
   {
